@@ -11801,3 +11801,8 @@ border-top: 1px solid #383838 !important,
 .link-muted:hover {
   color: #fff !important;
 }
+@media screen and (max-width: 1087px) {
+  .navbar-menu {
+    background-color: #181818;
+  }
+}
