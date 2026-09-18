@@ -137,3 +137,7 @@
         $('.navbar-main .catalogue').on('click', toggleToc);
     }
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.documentElement.setAttribute("data-theme", "dark");
+});
