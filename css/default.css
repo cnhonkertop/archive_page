@@ -11822,3 +11822,6 @@ border-top: 1px solid #383838 !important,
 strong {
   color: #eee;
 }
+article.media a:hover {
+  color: #eee;
+}
