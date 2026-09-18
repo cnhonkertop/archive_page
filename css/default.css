@@ -11686,6 +11686,9 @@ body {
 a {
   color: #bbb;
 }
+a:hover {
+  color: #868686;
+}
 .card {
   background-color: #181818;
   color: #fff;
