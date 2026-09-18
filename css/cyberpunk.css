@@ -11810,6 +11810,13 @@ border-top: 1px solid #383838 !important,
 .menu-list li ul {
   border-left: 1px solid #4e4e4e;
 }
+.content blockquote {
+  background-color: #2d2d2d;
+  border-left: 5px solid #505050;
+}
+strong {
+  color: #eee;
+}
 body {
   counter-reset: card;
 }
