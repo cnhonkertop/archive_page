@@ -11826,6 +11826,18 @@ strong {
 article.media a:hover {
   color: #eee;
 }
+.breadcrumb a {
+  color: #eee;
+}
+.breadcrumb a:hover {
+  color: #fff;
+}
+.breadcrumb li.is-active a {
+  color: #bbb;
+}
+.card .card-content .is-block:nth-child(3) {
+  color: #777;
+}
 body {
   counter-reset: card;
 }
