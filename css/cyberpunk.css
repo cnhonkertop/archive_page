@@ -11684,6 +11684,9 @@ html {
 body {
   color: #b6b6b6;
 }
+a {
+  color: #bbb;
+}
 .card {
   background-color: #181818;
   color: #fff;
