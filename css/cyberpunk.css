@@ -11721,7 +11721,8 @@ a:hover {
 .content h6 {
   color: #bbb;
   font-weight: bold;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 5px;
 }
 article.article .content h1 {
   font-size: 1.25em;
