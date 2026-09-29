@@ -152,4 +152,19 @@
             }
         });</script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script src="/js/pjax.js"></script><!--!--><!--!--><!--!--><script data-pjax src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script data-pjax src="/js/insight.js" defer></script><script data-pjax>document.addEventListener('DOMContentLoaded', function () {
             loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"频道","tags":"标签"});
-        });</script></body></html>
+        });</script><!-- hexo injector body_end start -->
+    <script type="module">
+      const el = document.querySelector('#waline-recent');
+      if (el && !el.dataset.walineInit) {
+        el.dataset.walineInit = 'true';
+        import('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.mjs')
+          .then(({ RecentComments }) => {
+            RecentComments({
+              el: '#waline-recent',
+              serverURL: "https://comment.cnhonker.top/",
+              count: 10
+            });
+          });
+      }
+    </script>
+  <!-- hexo injector body_end end --></body></html>
